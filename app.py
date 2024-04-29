@@ -12,5 +12,8 @@ def home():
           return "hi bob"
       else:  
           return "user not verifeidl" 
-   
+
+@app.route("/signup" )
+def signup():
+   return "signup"
       
